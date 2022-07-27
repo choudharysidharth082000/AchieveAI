@@ -27,7 +27,7 @@ I thought since i am taking the first and last line it will not impact the time/
 
 ### Fetch Data
 This service will be used to fetch the data which the user has demanded from the metadata. These service application devided into following steps
-- Fetch user from and to date and call the first service to get the __dataBetweenFiles__
+- Fetch user's "from and to" date and call the first service to get the __dataBetweenFiles__
 - After getting the data check for the first file and search for the data greater or equal to user's from date similarly check for the second file search for the data greater or equal to user's to date. And return the files. The time complexity to fetch the data will also be 
 >Time Complexity: O(n) where n is the number of log files
 Returns two files where the data is present
